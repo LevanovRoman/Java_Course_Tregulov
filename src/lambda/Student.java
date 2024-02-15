@@ -1,3 +1,5 @@
+package lambda;
+
 public class Student {
     String name;
     char sex;
@@ -24,16 +26,3 @@ public class Student {
                 '}';
     }
 }
--------------------------------------------------------------------
-        Student s1 = new Student("Ivan", 'm', 22, 3, 8.3);
-        Student s2 = new Student("Nikolay", 'm', 28, 2, 6.4);
-        Student s3 = new Student("Elena", 'f', 19, 1, 8.9);
-        Student s4 = new Student("Petr", 'm', 35, 4, 7);
-        Student s5 = new Student("Mariya", 'f', 23, 3, 9.1);
-
-        ArrayList<Student> students = new ArrayList<>();
-        students.add(s1);
-        students.add(s2);
-        students.add(s3);
-        students.add(s4);
-        students.add(s5);
