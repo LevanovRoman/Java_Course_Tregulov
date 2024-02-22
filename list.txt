@@ -1,0 +1,26 @@
+Много лет размышлял я над жизнью земной.
+Непонятного нет для меня под луной.
+Мне известно, что мне ничего не известно, —
+Вот последний секрет из постигнутых мной.
+privet
+
+git remote add origin https://github.com/LevanovRoman/Java_Course_Tregulov.git
+git branch -M main
+git push -u origin main
+privet
+
+
+List<String> list = new ArrayList<>();
+        list.add("privet");
+        list.add("kak dela");
+        list.add("ok");
+        list.add("poka");
+
+List<Integer> list = new ArrayList<>();
+        list.add(3);
+        list.add(8);
+        list.add(5);
+        list.add(32);
+        list.add(1);
+
+ int[] array = {5, 7, 9 , 3, 1};

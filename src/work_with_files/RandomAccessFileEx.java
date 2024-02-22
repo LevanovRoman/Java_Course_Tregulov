@@ -6,7 +6,7 @@ import java.io.RandomAccessFile;
 
 public class RandomAccessFileEx {
     public static void main(String[] args) {
-        try(RandomAccessFile file = new RandomAccessFile("test10.txt", "rw")){
+        try(RandomAccessFile file = new RandomAccessFile("student.txt", "rw")){
             int a = file.read();
             System.out.println((char) a);
             String s1 = file.readLine();

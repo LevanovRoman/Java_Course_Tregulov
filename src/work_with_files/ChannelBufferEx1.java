@@ -8,7 +8,7 @@ import java.nio.channels.FileChannel;
 
 public class ChannelBufferEx1 {
     public static void main(String[] args) {
-        try(RandomAccessFile file = new RandomAccessFile("test10.txt", "rw");
+        try(RandomAccessFile file = new RandomAccessFile("student.txt", "rw");
             FileChannel channel = file.getChannel())
         {
             ByteBuffer buffer = ByteBuffer.allocate(25);

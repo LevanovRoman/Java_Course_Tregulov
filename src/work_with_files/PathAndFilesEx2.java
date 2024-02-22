@@ -18,7 +18,7 @@ public class PathAndFilesEx2 {
 //        System.out.println("DONE!");
 
 //        Files.move(filePath, directoryPath.resolve("test15.txt"));
-//        Files.move(Paths.get("test10.txt"), Paths.get("test11.txt")); //rename file
+//        Files.move(Paths.get("student.txt"), Paths.get("test11.txt")); //rename file
 //        Files.delete(Paths.get("test5.txt"));
         Files.delete(directoryPath); // если пустая
 

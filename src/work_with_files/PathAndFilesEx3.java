@@ -6,7 +6,7 @@ import java.util.List;
 
 public class PathAndFilesEx3 {
     public static void main(String[] args) throws IOException {
-        Path filePath = Paths.get("test10.txt");
+        Path filePath = Paths.get("student.txt");
         Files.createFile(filePath);
         String dialog = "-Privet\n-Privet\n-Kak Dela?";
         Files.write(filePath, dialog.getBytes());
